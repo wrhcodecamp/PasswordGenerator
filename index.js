@@ -1,4 +1,5 @@
-object.onclick = function makePassword() {
+document.getElementById("passBtn").addEventListener("click", makePassword());
+function makePassword() {
 	let length = "";
 
 	let special = "!@#$%^&*()/?<>,.|-_=+";
@@ -14,7 +15,7 @@ object.onclick = function makePassword() {
 
 	let str =
 		"ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "abcdefghijklmnopqrstuvwxyz0123456789@#$";
-};
+}
 var length = prompt(
 	"Please enter password length",
 	"8-128 characters ONLY INTEGERS"
