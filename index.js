@@ -1,4 +1,3 @@
-document.getElementById("passBtn").addEventListener("click", makePassword());
 function makePassword() {
 	let length = "";
 
@@ -13,7 +12,7 @@ function makePassword() {
     console.log("I love " + vegetables[i]);
   }*/
 
-	let str =
+	let choices =
 		"ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "abcdefghijklmnopqrstuvwxyz0123456789@#$";
 }
 var length = prompt(
@@ -25,4 +24,7 @@ if (length >= 8 && length <= 128 && Number.isInteger(length)) {
 	alert(length);
 } else {
 	alert("Please pick a number between 8-128 that is an integer");
+}
+for (var i = 0; i < length - 1; i++) {
+	console.log("it works");
 }
