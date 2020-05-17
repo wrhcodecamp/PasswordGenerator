@@ -12,8 +12,7 @@ function makePassword() {
     console.log("I love " + vegetables[i]);
   }*/
 
-	let choices =
-		"ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "abcdefghijklmnopqrstuvwxyz0123456789@#$";
+	let choices = "" + "" + "" + "";
 }
 var length = prompt(
 	"Please enter password length",
