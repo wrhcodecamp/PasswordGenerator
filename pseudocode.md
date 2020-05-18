@@ -7,19 +7,38 @@ NUMBER UPPER LOWER AND SPECIAL
 THEY MUST CHOOSE AT LEAST ONE
 THEN THE PASSWORD IS GENERATED TO THEIR SPEFICICATIONS
 
-/_onclick begin function (PASSWORD)
-prompt the user for LENGTH
-it must be whole digits, geater than 7 and less than 129
-store this in a variable
-prompt them for CRITERIA of passwords and store that in an array
-or seperate variables? (boolean?)
-if a CRITERIAis met, then it will be included in picking from an array of the right CHARACTERS randomly
-(the generation itself seems the hard part)
-then store that in a value and alert it to the user_/
-
-Set variables for the password itself, the choices on how to make the password, and an array for the selected components to contatone.
-
-set length to be equal to whataver is put into the promt
-if lenght is equal to or greater that 8, equal to or less than 128, and length is an integer, move forward, if not tell them to put in a proper answer.
-
-prompt all the choices and store then in an array. randomly concatonate the string and store it to password, then show them the password
+// Array of special characters to be included in the password
+// Array of numeric characters to be included in the password
+// Array of lowercase characters to be included in the password
+// Array of uppercase characters to be included in the password
+//you did this
+// Function to prompt user for password options
+// variable to store the length of password from user input
+//your if conditional is wrong you need to figure out why it is wrong
+// Conditional statement to check if password length is a number. Prompts end if this evaluates false
+// Conditional statement to check if password length is at least eight characters long. Prompts end if this evaluates false
+// variable to store boolean regarding the inclusion of special characters
+// variable to store boolean regarding the inclusion of numeric characters
+// variable to store boolean regarding the inclusion of lowercase characters
+// variable to store boolean regarding the inclusion of uppercase characters
+// Conditional statement to check if user does not include any types of characters. Password generator ends if all four variables evaluate to false
+// Object to store user input
+// Function for getting a random element from an array
+// Function to generate password with user input
+// variable to store the password as it’s being concatenated
+// Array to store types of characters to include in the password
+// Array to contain one of each type of chosen character to ensure each will be used
+// Conditional statement that adds an Array of special characters into an Array of possible characters based on user input
+// Push new random special character to var guaranteedCharacters
+// Conditional statement that adds an Array of numeric characters into an Array of possible characters based on user input
+// Push new random special character to var guaranteedCharacters
+// Conditional statement that adds an Array of lowercase characters into an Array of possible characters based on user input
+// Push new random lower-cased character to var guaranteedCharacters
+// Conditional statement that adds an Array of uppercase characters into an Array of possible characters based on user input
+// Push new random upper-cased character to var guaranteedCharacters
+// For loop to iterate over the password length from the options object, selecting random indices from the Array of possible characters and concatenating those characters into the result variable
+// Mix in at least one of each guaranteed character in the result
+// Transform the result into a string and pass into var writePassword
+// Get references to the #generate Button
+// Write password to the #password input
+// Add event listener to generate button

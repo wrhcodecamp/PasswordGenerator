@@ -14,7 +14,23 @@ function makePassword() {
 
 	let choices = "" + "" + "" + "";
 }
-var length = prompt(
+prompt("do you want uppercase letters, please enter yes or no");
+if ((prompt = "yes")) {
+	choices[0] = upper;
+}
+prompt("do you want lowercase letters, please enter yes or no");
+if ((prompt = "yes")) {
+	choices[1] = lower;
+}
+prompt("do you want special characters, please enter yes or no");
+if ((prompt = "yes")) {
+	choices[2] = special;
+}
+prompt("do you want digits, please enter yes or no");
+if ((prompt = "yes")) {
+	choices[3] = digits;
+}
+let length = prompt(
 	"Please enter password length",
 	"8-128 characters ONLY INTEGERS"
 );
