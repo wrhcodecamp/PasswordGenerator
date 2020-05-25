@@ -23,4 +23,13 @@ function askPassCrit() {
 	var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"();
 	var numeric = "0123456789";
 	var specialcharacter = "!\"#$%&'()*+,-./:;<=>?@[]^_`{|}~";
+
+	//we can add the strings together and see if it adds up past whatever "nothing" is
+
+	var numericC = 0;
+	var lowercaseC = 0;
+	var uppercaseC = 0;
+	var specialcharacterC = 0;
+
+	var choiceValidate = numericC + lowercaseC + uppercaseC + specialcharacterC;
 }
