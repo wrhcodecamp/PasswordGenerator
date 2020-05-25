@@ -1,18 +1,18 @@
-var theButton = document.getElementById("passBtn");
+//set the randomly generated passwords length to null
 var passLength = "";
+
+//here im writing a function to take a string from the user
 function passAskLength() {
 	passLength = prompt("Enter your desired password length between 8-128");
 	console.log(passLength);
-}
-// now we have to make pass length into an int so it can be validated this fixes why it didnt work last time
+	var passLengthInt = parseInt(passLength);
 
-var passLengthInt = parseInt(passLength);
-
-if (
-	passLength !== "" &&
-	passLengthInt >= 8 &&
-	passLengthInt <= 128 &&
-	Number.isInteger(passLengthInt === true)
-) {
-	alert("your pass is" + passLengthInt + "characters long");
+	if (
+		passLength !== "" &&
+		passLengthInt >= 8 &&
+		passLengthInt <= 128 &&
+		Number.isInteger(passLengthInt)
+	) {
+		alert("your pass is " + passLengthInt + " characters long");
+	}
 }
