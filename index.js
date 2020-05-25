@@ -14,5 +14,13 @@ function passAskLength() {
 		Number.isInteger(passLengthInt)
 	) {
 		alert("your pass is " + passLengthInt + " characters long");
+	} else {
+		alert("please enter a proper whole number");
 	}
+}
+function askPassCrit() {
+	var lowercase = "abcdefghijklmnopqrstuvwxyz";
+	var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"();
+	var numeric = "0123456789";
+	var specialcharacter = "!\"#$%&'()*+,-./:;<=>?@[]^_`{|}~";
 }
