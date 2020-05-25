@@ -24,12 +24,10 @@ function askPassCrit() {
 	var numeric = "0123456789";
 	var specialcharacter = "!\"#$%&'()*+,-./:;<=>?@[]^_`{|}~";
 
-	//we can add the strings together and see if it adds up past whatever "nothing" is
+	//figured out how to do this part with booleans i think
 
-	var numericC = 0;
-	var lowercaseC = 0;
-	var uppercaseC = 0;
-	var specialcharacterC = 0;
-
-	var choiceValidate = numericC + lowercaseC + uppercaseC + specialcharacterC;
+	var numericC = false;
+	var lowercaseC = false;
+	var uppercaseC = false;
+	var specialcharacterC = false;
 }
